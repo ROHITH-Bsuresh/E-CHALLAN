@@ -1,0 +1,48 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #003366; /* Dark blue background for better contrast with the logo */
+    color: #fff;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-image {
+    width: 150px; /* Increased size of the logo */
+    height: auto;
+    margin-right: 15px;
+  }
+  
+  .logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff; /* White text color for better visibility */
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-links li {
+    margin-left: 25px; /* Increased margin for spacing */
+  }
+  
+  .navbar-links a {
+    color: #ffffff; /* White text color for navigation links */
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .navbar-links a:hover {
+    text-decoration: underline;
+    color: #ffcc00; /* Highlight color on hover (optional) */
+  }
+  

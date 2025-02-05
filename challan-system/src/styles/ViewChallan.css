@@ -1,0 +1,121 @@
+.view-challan {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Form styling */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.2rem; /* Slightly larger labels */
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.form-group input:focus {
+  border-color: #007bff;
+}
+
+.form-group button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.form-group button:hover {
+  background-color: #0056b3;
+  transform: translateY(-3px); /* Add a slight bounce on hover */
+}
+
+.error {
+  color: red;
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+/* Challan list container */
+.challan-list {
+  margin-top: 20px;
+  animation: fadeInUp 0.6s ease-in-out;
+}
+
+/* Animation for the card appearance */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Card design for the challan summary */
+.challan-summary {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 15px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: fadeInUp 0.5s ease-in-out;
+}
+
+.challan-summary h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+/* Hover effect for cards */
+.challan-summary:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
+}
+
+.challan-summary p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+  .view-challan {
+    padding: 10px;
+  }
+
+  .challan-summary {
+    padding: 15px;
+  }
+
+  .form-group input {
+    font-size: 1rem;
+  }
+
+  .form-group button {
+    font-size: 1rem;
+  }
+}

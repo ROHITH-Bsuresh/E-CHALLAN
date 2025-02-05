@@ -1,0 +1,54 @@
+.home-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.home-header {
+  background-color: #ffffff; /* White background for the header */
+  padding: 20px;
+  color: #000000; /* Black text color */
+}
+
+.home-logo {
+  width: 250px; /* Increased size of the logo */
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.home-header h1 {
+  font-size: 32px;
+  margin: 0;
+}
+
+.home-content {
+  padding: 20px;
+}
+
+.home-content p {
+  font-size: 18px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.home-buttons {
+  margin-top: 20px;
+}
+
+.home-buttons button {
+  background-color: #0066cc; /* Blue button color */
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 5px; /* Adjusted margin to align with spacing of buttons */
+}
+
+.home-buttons button:hover {
+  background-color: #004d99; /* Darker blue on hover */
+}
+
+.home-buttons a {
+  text-decoration: none;
+}
